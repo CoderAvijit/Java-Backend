@@ -33,6 +33,7 @@ public class MenuItems {
 		this.freeDelivery = freeDelivery;
 	}
 	
+
 	public MenuItems() {
 		super();
 		// TODO Auto-generated constructor stub
@@ -68,12 +69,14 @@ public class MenuItems {
 	public void setDateOfLaunch(String dateOfLaunch) {
 		this.dateOfLaunch = dateOfLaunch;
 	}
-	public String isFreeDelivery() {
+	public String getFreeDelivery() {
 		return freeDelivery;
 	}
+
 	public void setFreeDelivery(String freeDelivery) {
 		this.freeDelivery = freeDelivery;
 	}
+
 
 	@Override
 	public String toString() {

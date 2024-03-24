@@ -1,7 +1,11 @@
 package com.truYum.app.Repository;
 
+import java.awt.MenuItem;
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 import com.truYum.app.persitant.MenuItems;
@@ -12,63 +16,65 @@ public class CustomerRepo {
 	public static int price=0;
 	@Autowired
 	private AdminRepo repo=new AdminRepo();
-	public static List<MenuItems> cartlist=new ArrayList<>();
+	public static Map<String,List<MenuItems>> cartMap=new HashMap<>();
 	@Transactional
-	public String addToCart(String name) {
+	public List<MenuItems> addToCart(String name,String email) {
 		List<MenuItems> itemList = repo.getAllItems();
 		int id=0;
-		boolean istrue=false;
 			for(MenuItems item:itemList) {
-				if(item.getName().equals(name) && item.getAvailability().equals("Yes")) {
+				if(item.getName().equals(name) && item.getAvailability().equalsIgnoreCase("Yes")) {
 					id=item.getId();
-					istrue=true;
 					break;
 				}
 			}
-			if(!istrue) {
-				return "Not found that item";
-			}
 			MenuItems item = repo.getItemById(id);
-			cartlist.add(item);
+			if(cartMap.containsKey(email)) {
+				cartMap.get(email).add(item);
+			}else {
+				List<MenuItems> list = new ArrayList<>();
+				list.add(item);
+				cartMap.put(email, list);
+			}
+			
 			System.out.println("Item added succesfully....");
 			price+=item.getPrice();
-		return "Items: "+cartlist+"\nTotal Price: "+price;
+		return itemList;
 	}
 	@Transactional
-	public String removeFromCart(String name) {
-		List<MenuItems> itemList = repo.getAllItems();
+	public List<MenuItems> removeFromCart(String name,String email) {
 		int id=0;
-		boolean istrue=false;
-		if(!cartlist.isEmpty()) {
-		for(MenuItems item:itemList) {
-			if(item.getName().equals(name) && item.getAvailability().equals("Yes")) {
+		int idx=0;
+		if(!cartMap.get(email).isEmpty()) {
+		for(MenuItems item:cartMap.get(email)) {
+			if(item.getName().equalsIgnoreCase(name)) {
 				id=item.getId();
 				break;
 			}
-		}
-		if(!istrue) {
-			return "Not found that item";
+			idx++;
 		}
 		MenuItems item = repo.getItemById(id);
 		price-=item.getPrice();
-		cartlist.remove(item);
-		System.out.println("Item removed succesfully....");
+		System.out.println("Item to be delete : "+item);
+		System.out.println("Before delete : "+cartMap.size());
+//		cartlist.clear();
+		cartMap.get(email).remove(idx);
+		System.out.println(cartMap.get(email)+"Item removed succesfully....");
+		System.out.println("After delete : "+cartMap.size());
+	}else {
+		System.out.println("Cart is empty");
 	}
-		else {
-			return "Bhai kuch add to karle pehle......";
-		}
-		return "Items: "+cartlist+"\nTotal Price: "+price;
+		return cartMap.get(email);
 	}
 	@Transactional
-	public String viewCart() {
-		return "Items: "+cartlist+"\nTotal Price: "+price;
+	public List<MenuItems> viewCart(String email) {
+		return cartMap.get(email);
 	}
 	@Transactional
 	public List<MenuItems> ShowMenuItems(){
 		List<MenuItems> showitemList=new ArrayList<>();
 		List<MenuItems> itemList = repo.getAllItems();
 		for(MenuItems item:itemList) {
-			if(item.getAvailability().equals("Yes")) {
+			if(item.getAvailability().equalsIgnoreCase("Yes")) {
 				showitemList.add(item);
 			}
 		}

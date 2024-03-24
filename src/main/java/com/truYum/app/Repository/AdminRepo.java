@@ -13,11 +13,15 @@ import jakarta.persistence.EntityManager;
 import jakarta.persistence.TypedQuery;
 import jakarta.transaction.Transactional;
 //import java.util.*;
-@Repository
+@Repository 
+// used to indicate that a class is a repository, which is a component responsible 
+//for accessing and manipulating data from a database
 public class AdminRepo {
 	
 	@Autowired
+	//dependency injection that injects EntityManager in the bean
 	private EntityManager em;
+	//Store logs of the program
 	Logger logger = LoggerFactory.getLogger(MenuItems.class);
 	
 	@Transactional
@@ -33,7 +37,6 @@ public class AdminRepo {
 		Collections.sort(items, (p1,p2) -> {
 			return (p1.getPrice()-p2.getPrice());
 		});
-		;
 		System.out.println(items);
 		return items;
 	}
@@ -62,6 +65,7 @@ public class AdminRepo {
 		item.setAvailability(avail);
 		item.setDateOfLaunch(date);
 		item.setFreeDelivery(freeDel);
+		logger.info("We have updated the object "+item);
 		return item;
 		
 	}

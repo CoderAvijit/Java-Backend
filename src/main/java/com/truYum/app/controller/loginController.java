@@ -26,13 +26,13 @@ public class loginController {
 		String redirectUrl = repo.doLogin(role,email, password);
 		 if (redirectUrl.equals("/addmenu.html")) {
 	            // If it's an admin login, redirect to the admin menu HTML page in the static directory
-			return ResponseHandler.generateResponse("Succesfull",HttpStatus.OK);
+			return ResponseHandler.generateResponse("user",HttpStatus.OK);
 	        } else if(redirectUrl.equalsIgnoreCase("adminpage")) {
-	        	return new ResponseEntity<Object>("Role :"+role+"Id: "+email,HttpStatus.PRECONDITION_FAILED);
+	        	return ResponseHandler.generateResponse("admin",HttpStatus.OK);
 	        }
 	        	else {
 	            // Handle other redirects or error messages as needed
-	        		return new ResponseEntity<Object>(HttpStatus.INTERNAL_SERVER_ERROR);
+	        		return ResponseHandler.generateResponse("error",HttpStatus.PRECONDITION_FAILED);
 	        }
 	}
 }
