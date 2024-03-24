@@ -102,3 +102,279 @@ Consider the following:
 2024-03-25T00:09:21.082+05:30  INFO 15684 --- [Thread-5] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
 2024-03-25T00:09:21.089+05:30  INFO 15684 --- [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
 2024-03-25T00:09:21.115+05:30  INFO 15684 --- [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-03-25T00:09:21.263+05:30  INFO 15684 --- [restartedMain] com.truYum.app.TruYumApplication         : Starting TruYumApplication using Java 17.0.9 with PID 15684 (F:\BackendWithReact\TruYum-Backend\Java-Backend\target\classes started by Avijit in F:\BackendWithReact\TruYum-Backend\Java-Backend)
+2024-03-25T00:09:21.264+05:30  INFO 15684 --- [restartedMain] com.truYum.app.TruYumApplication         : The following 1 profile is active: "prod"
+2024-03-25T00:09:21.671+05:30  INFO 15684 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-03-25T00:09:21.677+05:30  INFO 15684 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 4 ms. Found 0 JPA repository interfaces.
+2024-03-25T00:09:21.866+05:30  INFO 15684 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2024-03-25T00:09:21.867+05:30  INFO 15684 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-03-25T00:09:21.869+05:30  INFO 15684 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.13]
+2024-03-25T00:09:21.912+05:30  INFO 15684 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-03-25T00:09:21.912+05:30  INFO 15684 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 643 ms
+2024-03-25T00:09:22.005+05:30  INFO 15684 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-03-25T00:09:22.018+05:30  INFO 15684 --- [restartedMain] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2024-03-25T00:09:22.019+05:30  INFO 15684 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-03-25T00:09:22.021+05:30  INFO 15684 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2024-03-25T00:09:24.688+05:30  INFO 15684 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3bc0211
+2024-03-25T00:09:24.689+05:30  INFO 15684 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2024-03-25T00:09:24.690+05:30  WARN 15684 --- [restartedMain] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2024-03-25T00:09:24.708+05:30  INFO 15684 --- [restartedMain] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2024-03-25T00:09:24.761+05:30  INFO 15684 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-03-25T00:09:25.306+05:30  INFO 15684 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-03-25T00:09:25.311+05:30  INFO 15684 --- [restartedMain] f.a.AutowiredAnnotationBeanPostProcessor : Autowired annotation is not supported on static methods: public static void com.truYum.app.TruYumApplication.main(java.lang.String[])
+2024-03-25T00:09:25.373+05:30  WARN 15684 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-03-25T00:09:25.457+05:30  WARN 15684 --- [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2024-03-25T00:09:25.498+05:30  INFO 15684 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-03-25T00:09:25.516+05:30  INFO 15684 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2024-03-25T00:09:25.528+05:30  INFO 15684 --- [restartedMain] com.truYum.app.TruYumApplication         : Started TruYumApplication in 4.319 seconds (process running for 36.729)
+2024-03-25T00:09:25.535+05:30  INFO 15684 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-03-25T00:14:13.246+05:30  INFO 15684 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-03-25T00:14:13.262+05:30  INFO 15684 --- [Thread-7] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2024-03-25T00:14:13.267+05:30  INFO 15684 --- [Thread-7] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-03-25T00:14:13.268+05:30  INFO 15684 --- [Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2024-03-25T00:14:14.032+05:30  INFO 15684 --- [Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2024-03-25T00:14:14.108+05:30  INFO 15684 --- [restartedMain] com.truYum.app.TruYumApplication         : Starting TruYumApplication using Java 17.0.9 with PID 15684 (F:\BackendWithReact\TruYum-Backend\Java-Backend\target\classes started by Avijit in F:\BackendWithReact\TruYum-Backend\Java-Backend)
+2024-03-25T00:14:14.108+05:30  INFO 15684 --- [restartedMain] com.truYum.app.TruYumApplication         : The following 1 profile is active: "dev"
+2024-03-25T00:14:14.336+05:30  INFO 15684 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-03-25T00:14:14.339+05:30  INFO 15684 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 1 ms. Found 0 JPA repository interfaces.
+2024-03-25T00:14:14.410+05:30  INFO 15684 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2024-03-25T00:14:14.411+05:30  INFO 15684 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-03-25T00:14:14.411+05:30  INFO 15684 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.13]
+2024-03-25T00:14:14.428+05:30  INFO 15684 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-03-25T00:14:14.428+05:30  INFO 15684 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 318 ms
+2024-03-25T00:14:14.470+05:30  INFO 15684 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-03-25T00:14:14.478+05:30  INFO 15684 --- [restartedMain] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2024-03-25T00:14:14.478+05:30  INFO 15684 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-03-25T00:14:14.480+05:30  INFO 15684 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Starting...
+2024-03-25T00:14:14.498+05:30  INFO 15684 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-3 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6169880
+2024-03-25T00:14:14.498+05:30  INFO 15684 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Start completed.
+2024-03-25T00:14:14.499+05:30  WARN 15684 --- [restartedMain] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2024-03-25T00:14:14.509+05:30  INFO 15684 --- [restartedMain] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2024-03-25T00:14:14.545+05:30  INFO 15684 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-03-25T00:14:14.562+05:30  INFO 15684 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-03-25T00:14:14.566+05:30  INFO 15684 --- [restartedMain] f.a.AutowiredAnnotationBeanPostProcessor : Autowired annotation is not supported on static methods: public static void com.truYum.app.TruYumApplication.main(java.lang.String[])
+2024-03-25T00:14:14.606+05:30  WARN 15684 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-03-25T00:14:14.670+05:30  WARN 15684 --- [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2024-03-25T00:14:14.694+05:30  INFO 15684 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-03-25T00:14:14.704+05:30  INFO 15684 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2024-03-25T00:14:14.710+05:30  INFO 15684 --- [restartedMain] com.truYum.app.TruYumApplication         : Started TruYumApplication in 0.624 seconds (process running for 325.91)
+2024-03-25T00:14:14.713+05:30  INFO 15684 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-03-25T00:17:09.968+05:30  INFO 15684 --- [RMI TCP Connection(25)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2024-03-25T00:17:09.983+05:30  INFO 15684 --- [RMI TCP Connection(25)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2024-03-25T00:17:09.988+05:30  INFO 15684 --- [RMI TCP Connection(25)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-03-25T00:17:09.989+05:30  INFO 15684 --- [RMI TCP Connection(25)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown initiated...
+2024-03-25T00:17:09.996+05:30  INFO 15684 --- [RMI TCP Connection(25)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown completed.
+2024-03-25T00:29:47.386+05:30  INFO 6216 --- [restartedMain] com.truYum.app.TruYumApplication         : Starting TruYumApplication using Java 17.0.9 with PID 6216 (F:\BackendWithReact\TruYum-Backend\Java-Backend\target\classes started by Avijit in F:\BackendWithReact\TruYum-Backend\Java-Backend)
+2024-03-25T00:29:47.441+05:30  INFO 6216 --- [restartedMain] com.truYum.app.TruYumApplication         : The following 1 profile is active: "dev"
+2024-03-25T00:29:47.514+05:30  INFO 6216 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-03-25T00:29:47.514+05:30  INFO 6216 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-03-25T00:29:48.149+05:30  INFO 6216 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-03-25T00:29:48.176+05:30  INFO 6216 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 19 ms. Found 0 JPA repository interfaces.
+2024-03-25T00:29:48.756+05:30  INFO 6216 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2024-03-25T00:29:48.768+05:30  INFO 6216 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-03-25T00:29:48.769+05:30  INFO 6216 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.13]
+2024-03-25T00:29:48.851+05:30  INFO 6216 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-03-25T00:29:48.852+05:30  INFO 6216 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1337 ms
+2024-03-25T00:29:49.096+05:30  INFO 6216 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-03-25T00:29:49.175+05:30  INFO 6216 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.9.Final
+2024-03-25T00:29:49.178+05:30  INFO 6216 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2024-03-25T00:29:49.415+05:30  INFO 6216 --- [restartedMain] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2024-03-25T00:29:49.624+05:30  INFO 6216 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-03-25T00:29:49.649+05:30  INFO 6216 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-03-25T00:29:50.472+05:30  INFO 6216 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@69618ba4
+2024-03-25T00:29:50.474+05:30  INFO 6216 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-03-25T00:29:50.543+05:30  WARN 6216 --- [restartedMain] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2024-03-25T00:29:50.893+05:30  INFO 6216 --- [restartedMain] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2024-03-25T00:29:51.752+05:30  INFO 6216 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-03-25T00:29:51.824+05:30  INFO 6216 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-03-25T00:29:51.830+05:30  INFO 6216 --- [restartedMain] f.a.AutowiredAnnotationBeanPostProcessor : Autowired annotation is not supported on static methods: public static void com.truYum.app.TruYumApplication.main(java.lang.String[])
+2024-03-25T00:29:51.988+05:30  WARN 6216 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-03-25T00:29:52.350+05:30  WARN 6216 --- [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2024-03-25T00:29:52.516+05:30  INFO 6216 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-03-25T00:29:52.609+05:30  INFO 6216 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2024-03-25T00:29:52.623+05:30  INFO 6216 --- [restartedMain] com.truYum.app.TruYumApplication         : Started TruYumApplication in 5.706 seconds (process running for 6.561)
+2024-03-25T00:30:48.749+05:30  INFO 6216 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-03-25T00:30:48.749+05:30  INFO 6216 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-03-25T00:30:48.752+05:30  INFO 6216 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2024-03-25T00:30:50.286+05:30  INFO 6216 --- [http-nio-8080-exec-2] com.truYum.app.persitant.Customer        : We have saved succesfully : Customer [id=2, name=Avijit Rana, userId=avijitrana@gmail.com, password=Kensho@123, location=Kolkata, contactNo=876676868]
+2024-03-25T00:31:49.632+05:30  INFO 6216 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-03-25T00:31:49.674+05:30  INFO 6216 --- [Thread-5] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2024-03-25T00:31:49.683+05:30  INFO 6216 --- [Thread-5] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2024-03-25T00:31:49.716+05:30  INFO 6216 --- [Thread-5] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-03-25T00:31:49.720+05:30  INFO 6216 --- [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-03-25T00:31:49.758+05:30  INFO 6216 --- [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-03-25T00:31:49.893+05:30  INFO 6216 --- [restartedMain] com.truYum.app.TruYumApplication         : Starting TruYumApplication using Java 17.0.9 with PID 6216 (F:\BackendWithReact\TruYum-Backend\Java-Backend\target\classes started by Avijit in F:\BackendWithReact\TruYum-Backend\Java-Backend)
+2024-03-25T00:31:49.893+05:30  INFO 6216 --- [restartedMain] com.truYum.app.TruYumApplication         : The following 1 profile is active: "dev"
+2024-03-25T00:31:50.196+05:30  INFO 6216 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-03-25T00:31:50.199+05:30  INFO 6216 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 2 ms. Found 0 JPA repository interfaces.
+2024-03-25T00:31:50.316+05:30  INFO 6216 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2024-03-25T00:31:50.317+05:30  INFO 6216 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-03-25T00:31:50.317+05:30  INFO 6216 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.13]
+2024-03-25T00:31:50.340+05:30  INFO 6216 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-03-25T00:31:50.340+05:30  INFO 6216 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 442 ms
+2024-03-25T00:31:50.380+05:30  INFO 6216 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-03-25T00:31:50.391+05:30  INFO 6216 --- [restartedMain] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2024-03-25T00:31:50.392+05:30  INFO 6216 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-03-25T00:31:50.393+05:30  INFO 6216 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2024-03-25T00:31:50.433+05:30  INFO 6216 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6cb11e99
+2024-03-25T00:31:50.434+05:30  INFO 6216 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2024-03-25T00:31:50.435+05:30  WARN 6216 --- [restartedMain] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2024-03-25T00:31:50.483+05:30  INFO 6216 --- [restartedMain] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2024-03-25T00:31:50.548+05:30  INFO 6216 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-03-25T00:31:50.583+05:30  INFO 6216 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-03-25T00:31:50.592+05:30  INFO 6216 --- [restartedMain] f.a.AutowiredAnnotationBeanPostProcessor : Autowired annotation is not supported on static methods: public static void com.truYum.app.TruYumApplication.main(java.lang.String[])
+2024-03-25T00:31:50.666+05:30  WARN 6216 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-03-25T00:31:50.782+05:30  WARN 6216 --- [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2024-03-25T00:31:50.823+05:30  INFO 6216 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-03-25T00:31:50.837+05:30  INFO 6216 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2024-03-25T00:31:50.844+05:30  INFO 6216 --- [restartedMain] com.truYum.app.TruYumApplication         : Started TruYumApplication in 0.988 seconds (process running for 124.781)
+2024-03-25T00:31:50.849+05:30  INFO 6216 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-03-25T00:31:54.127+05:30  INFO 6216 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-03-25T00:31:54.127+05:30  INFO 6216 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-03-25T00:31:54.130+05:30  INFO 6216 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2024-03-25T00:33:08.620+05:30  INFO 6216 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-03-25T00:33:08.637+05:30  INFO 6216 --- [Thread-7] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2024-03-25T00:33:08.638+05:30  INFO 6216 --- [Thread-7] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2024-03-25T00:33:08.641+05:30  INFO 6216 --- [Thread-7] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-03-25T00:33:08.641+05:30  INFO 6216 --- [Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2024-03-25T00:33:08.647+05:30  INFO 6216 --- [Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2024-03-25T00:33:08.716+05:30  INFO 6216 --- [restartedMain] com.truYum.app.TruYumApplication         : Starting TruYumApplication using Java 17.0.9 with PID 6216 (F:\BackendWithReact\TruYum-Backend\Java-Backend\target\classes started by Avijit in F:\BackendWithReact\TruYum-Backend\Java-Backend)
+2024-03-25T00:33:08.716+05:30  INFO 6216 --- [restartedMain] com.truYum.app.TruYumApplication         : The following 1 profile is active: "dev"
+2024-03-25T00:33:08.864+05:30  INFO 6216 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-03-25T00:33:08.866+05:30  INFO 6216 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 1 ms. Found 0 JPA repository interfaces.
+2024-03-25T00:33:08.976+05:30  INFO 6216 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2024-03-25T00:33:08.981+05:30  INFO 6216 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-03-25T00:33:08.981+05:30  INFO 6216 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.13]
+2024-03-25T00:33:09.003+05:30  INFO 6216 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-03-25T00:33:09.003+05:30  INFO 6216 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 285 ms
+2024-03-25T00:33:09.054+05:30  INFO 6216 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-03-25T00:33:09.063+05:30  INFO 6216 --- [restartedMain] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2024-03-25T00:33:09.063+05:30  INFO 6216 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-03-25T00:33:09.065+05:30  INFO 6216 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Starting...
+2024-03-25T00:33:09.081+05:30  INFO 6216 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-3 - Added connection com.mysql.cj.jdbc.ConnectionImpl@13798cd
+2024-03-25T00:33:09.081+05:30  INFO 6216 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Start completed.
+2024-03-25T00:33:09.082+05:30  WARN 6216 --- [restartedMain] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2024-03-25T00:33:09.092+05:30  INFO 6216 --- [restartedMain] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2024-03-25T00:33:09.125+05:30  INFO 6216 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-03-25T00:33:09.137+05:30  INFO 6216 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-03-25T00:33:09.142+05:30  INFO 6216 --- [restartedMain] f.a.AutowiredAnnotationBeanPostProcessor : Autowired annotation is not supported on static methods: public static void com.truYum.app.TruYumApplication.main(java.lang.String[])
+2024-03-25T00:33:09.186+05:30  WARN 6216 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-03-25T00:33:09.262+05:30  WARN 6216 --- [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2024-03-25T00:33:09.296+05:30  INFO 6216 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-03-25T00:33:09.309+05:30  INFO 6216 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2024-03-25T00:33:09.318+05:30  INFO 6216 --- [restartedMain] com.truYum.app.TruYumApplication         : Started TruYumApplication in 0.624 seconds (process running for 203.256)
+2024-03-25T00:33:09.322+05:30  INFO 6216 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-03-25T00:33:13.024+05:30  INFO 6216 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-03-25T00:33:13.024+05:30  INFO 6216 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-03-25T00:33:13.026+05:30  INFO 6216 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-03-25T00:36:33.819+05:30  INFO 6216 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-03-25T00:36:33.854+05:30  INFO 6216 --- [Thread-11] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2024-03-25T00:36:33.855+05:30  INFO 6216 --- [Thread-11] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2024-03-25T00:36:33.860+05:30  INFO 6216 --- [Thread-11] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-03-25T00:36:33.861+05:30  INFO 6216 --- [Thread-11] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown initiated...
+2024-03-25T00:36:33.866+05:30  INFO 6216 --- [Thread-11] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown completed.
+2024-03-25T00:36:33.933+05:30  INFO 6216 --- [restartedMain] com.truYum.app.TruYumApplication         : Starting TruYumApplication using Java 17.0.9 with PID 6216 (F:\BackendWithReact\TruYum-Backend\Java-Backend\target\classes started by Avijit in F:\BackendWithReact\TruYum-Backend\Java-Backend)
+2024-03-25T00:36:33.934+05:30  INFO 6216 --- [restartedMain] com.truYum.app.TruYumApplication         : The following 1 profile is active: "dev"
+2024-03-25T00:36:34.083+05:30  INFO 6216 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-03-25T00:36:34.085+05:30  INFO 6216 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 1 ms. Found 0 JPA repository interfaces.
+2024-03-25T00:36:34.149+05:30  INFO 6216 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2024-03-25T00:36:34.149+05:30  INFO 6216 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-03-25T00:36:34.149+05:30  INFO 6216 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.13]
+2024-03-25T00:36:34.168+05:30  INFO 6216 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-03-25T00:36:34.168+05:30  INFO 6216 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 232 ms
+2024-03-25T00:36:34.203+05:30  INFO 6216 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-03-25T00:36:34.208+05:30  INFO 6216 --- [restartedMain] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2024-03-25T00:36:34.208+05:30  INFO 6216 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-03-25T00:36:34.209+05:30  INFO 6216 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Starting...
+2024-03-25T00:36:34.225+05:30  INFO 6216 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-4 - Added connection com.mysql.cj.jdbc.ConnectionImpl@775c4b4c
+2024-03-25T00:36:34.225+05:30  INFO 6216 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Start completed.
+2024-03-25T00:36:34.226+05:30  WARN 6216 --- [restartedMain] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2024-03-25T00:36:34.239+05:30  INFO 6216 --- [restartedMain] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2024-03-25T00:36:34.272+05:30  INFO 6216 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-03-25T00:36:34.282+05:30  INFO 6216 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-03-25T00:36:34.287+05:30  INFO 6216 --- [restartedMain] f.a.AutowiredAnnotationBeanPostProcessor : Autowired annotation is not supported on static methods: public static void com.truYum.app.TruYumApplication.main(java.lang.String[])
+2024-03-25T00:36:34.324+05:30  WARN 6216 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-03-25T00:36:34.386+05:30  WARN 6216 --- [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2024-03-25T00:36:34.411+05:30  INFO 6216 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-03-25T00:36:34.422+05:30  INFO 6216 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2024-03-25T00:36:34.429+05:30  INFO 6216 --- [restartedMain] com.truYum.app.TruYumApplication         : Started TruYumApplication in 0.516 seconds (process running for 408.366)
+2024-03-25T00:36:34.432+05:30  INFO 6216 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-03-25T00:37:30.656+05:30  INFO 6216 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-03-25T00:37:30.656+05:30  INFO 6216 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-03-25T00:37:30.658+05:30  INFO 6216 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2024-03-25T00:38:00.271+05:30  INFO 6216 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-03-25T00:38:00.286+05:30  INFO 6216 --- [Thread-15] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2024-03-25T00:38:00.287+05:30  INFO 6216 --- [Thread-15] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2024-03-25T00:38:00.291+05:30  INFO 6216 --- [Thread-15] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-03-25T00:38:00.291+05:30  INFO 6216 --- [Thread-15] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown initiated...
+2024-03-25T00:38:00.296+05:30  INFO 6216 --- [Thread-15] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown completed.
+2024-03-25T00:38:00.372+05:30  INFO 6216 --- [restartedMain] com.truYum.app.TruYumApplication         : Starting TruYumApplication using Java 17.0.9 with PID 6216 (F:\BackendWithReact\TruYum-Backend\Java-Backend\target\classes started by Avijit in F:\BackendWithReact\TruYum-Backend\Java-Backend)
+2024-03-25T00:38:00.373+05:30  INFO 6216 --- [restartedMain] com.truYum.app.TruYumApplication         : The following 1 profile is active: "dev"
+2024-03-25T00:38:00.523+05:30  INFO 6216 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-03-25T00:38:00.526+05:30  INFO 6216 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 2 ms. Found 0 JPA repository interfaces.
+2024-03-25T00:38:00.634+05:30  INFO 6216 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2024-03-25T00:38:00.635+05:30  INFO 6216 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-03-25T00:38:00.635+05:30  INFO 6216 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.13]
+2024-03-25T00:38:00.653+05:30  INFO 6216 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-03-25T00:38:00.654+05:30  INFO 6216 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 279 ms
+2024-03-25T00:38:00.691+05:30  INFO 6216 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-03-25T00:38:00.696+05:30  INFO 6216 --- [restartedMain] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2024-03-25T00:38:00.696+05:30  INFO 6216 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-03-25T00:38:00.697+05:30  INFO 6216 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Starting...
+2024-03-25T00:38:00.711+05:30  INFO 6216 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-5 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1010c179
+2024-03-25T00:38:00.711+05:30  INFO 6216 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Start completed.
+2024-03-25T00:38:00.711+05:30  WARN 6216 --- [restartedMain] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2024-03-25T00:38:00.720+05:30  INFO 6216 --- [restartedMain] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2024-03-25T00:38:00.748+05:30  INFO 6216 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-03-25T00:38:00.758+05:30  INFO 6216 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-03-25T00:38:00.763+05:30  INFO 6216 --- [restartedMain] f.a.AutowiredAnnotationBeanPostProcessor : Autowired annotation is not supported on static methods: public static void com.truYum.app.TruYumApplication.main(java.lang.String[])
+2024-03-25T00:38:00.803+05:30  WARN 6216 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-03-25T00:38:00.963+05:30  WARN 6216 --- [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2024-03-25T00:38:01.060+05:30  INFO 6216 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-03-25T00:38:01.076+05:30  INFO 6216 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2024-03-25T00:38:01.085+05:30  INFO 6216 --- [restartedMain] com.truYum.app.TruYumApplication         : Started TruYumApplication in 0.742 seconds (process running for 495.022)
+2024-03-25T00:38:01.088+05:30  INFO 6216 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-03-25T00:38:03.653+05:30  INFO 6216 --- [http-nio-8080-exec-4] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-03-25T00:38:03.653+05:30  INFO 6216 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-03-25T00:38:03.654+05:30  INFO 6216 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-03-25T00:39:10.825+05:30  INFO 6216 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-03-25T00:39:10.851+05:30  INFO 6216 --- [Thread-19] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2024-03-25T00:39:10.851+05:30  INFO 6216 --- [Thread-19] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2024-03-25T00:39:10.856+05:30  INFO 6216 --- [Thread-19] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-03-25T00:39:10.857+05:30  INFO 6216 --- [Thread-19] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Shutdown initiated...
+2024-03-25T00:39:10.862+05:30  INFO 6216 --- [Thread-19] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Shutdown completed.
+2024-03-25T00:39:10.932+05:30  INFO 6216 --- [restartedMain] com.truYum.app.TruYumApplication         : Starting TruYumApplication using Java 17.0.9 with PID 6216 (F:\BackendWithReact\TruYum-Backend\Java-Backend\target\classes started by Avijit in F:\BackendWithReact\TruYum-Backend\Java-Backend)
+2024-03-25T00:39:10.932+05:30  INFO 6216 --- [restartedMain] com.truYum.app.TruYumApplication         : The following 1 profile is active: "dev"
+2024-03-25T00:39:11.069+05:30  INFO 6216 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-03-25T00:39:11.071+05:30  INFO 6216 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 1 ms. Found 0 JPA repository interfaces.
+2024-03-25T00:39:11.149+05:30  INFO 6216 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2024-03-25T00:39:11.149+05:30  INFO 6216 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-03-25T00:39:11.149+05:30  INFO 6216 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.13]
+2024-03-25T00:39:11.166+05:30  INFO 6216 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-03-25T00:39:11.166+05:30  INFO 6216 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 232 ms
+2024-03-25T00:39:11.215+05:30  INFO 6216 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-03-25T00:39:11.221+05:30  INFO 6216 --- [restartedMain] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2024-03-25T00:39:11.221+05:30  INFO 6216 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-03-25T00:39:11.222+05:30  INFO 6216 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Starting...
+2024-03-25T00:39:11.240+05:30  INFO 6216 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-6 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2c3eafd8
+2024-03-25T00:39:11.240+05:30  INFO 6216 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Start completed.
+2024-03-25T00:39:11.241+05:30  WARN 6216 --- [restartedMain] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2024-03-25T00:39:11.252+05:30  INFO 6216 --- [restartedMain] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2024-03-25T00:39:11.288+05:30  INFO 6216 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-03-25T00:39:11.297+05:30  INFO 6216 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-03-25T00:39:11.302+05:30  INFO 6216 --- [restartedMain] f.a.AutowiredAnnotationBeanPostProcessor : Autowired annotation is not supported on static methods: public static void com.truYum.app.TruYumApplication.main(java.lang.String[])
+2024-03-25T00:39:11.336+05:30  WARN 6216 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-03-25T00:39:11.407+05:30  WARN 6216 --- [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2024-03-25T00:39:11.431+05:30  INFO 6216 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-03-25T00:39:11.441+05:30  INFO 6216 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2024-03-25T00:39:11.447+05:30  INFO 6216 --- [restartedMain] com.truYum.app.TruYumApplication         : Started TruYumApplication in 0.539 seconds (process running for 565.385)
+2024-03-25T00:39:11.449+05:30  INFO 6216 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-03-25T00:39:16.567+05:30  INFO 6216 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-03-25T00:39:16.568+05:30  INFO 6216 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-03-25T00:39:16.569+05:30  INFO 6216 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-03-25T00:41:43.532+05:30  INFO 6216 --- [RMI TCP Connection(35)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2024-03-25T00:41:43.548+05:30  INFO 6216 --- [RMI TCP Connection(35)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2024-03-25T00:41:43.548+05:30  INFO 6216 --- [RMI TCP Connection(35)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2024-03-25T00:41:43.552+05:30  INFO 6216 --- [RMI TCP Connection(35)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-03-25T00:41:43.553+05:30  INFO 6216 --- [RMI TCP Connection(35)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Shutdown initiated...
+2024-03-25T00:41:43.560+05:30  INFO 6216 --- [RMI TCP Connection(35)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Shutdown completed.

@@ -24,10 +24,11 @@ public class loginController {
 	public ResponseEntity<Object> doLogin(@RequestParam String role,@RequestParam String email,
 	        @RequestParam String password) {
 		String redirectUrl = repo.doLogin(role,email, password);
-		 if (redirectUrl.equals("/addmenu.html")) {
+		System.out.println("Redirect Url :"+redirectUrl);
+		 if (redirectUrl.equals("customer")) {
 	            // If it's an admin login, redirect to the admin menu HTML page in the static directory
 			return ResponseHandler.generateResponse("user",HttpStatus.OK);
-	        } else if(redirectUrl.equalsIgnoreCase("adminpage")) {
+	        } else if(redirectUrl.equalsIgnoreCase("admin")) {
 	        	return ResponseHandler.generateResponse("admin",HttpStatus.OK);
 	        }
 	        	else {

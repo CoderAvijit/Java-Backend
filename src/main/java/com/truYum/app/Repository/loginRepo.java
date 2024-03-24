@@ -17,13 +17,15 @@ public class loginRepo {
 //	@RequestMapping(value = {"addmenu"}, method = RequestMethod.GET)
 	public String doLogin(String role,String userName,String password) {
 			String jpql=null;
+			System.out.println("Role :"+role+" User Name :"+userName+" Password :"+password);
 		if(role.equalsIgnoreCase("customer")) {
+			System.out.println("Executed inside "+role);
 			jpql = "select c from Customer c";
 			TypedQuery<Customer> query = em.createQuery(jpql,Customer.class);
 			List<Customer> customerList = query.getResultList();
 				for(Customer cust:customerList) {
 					if(cust.getUserId().equalsIgnoreCase(userName) && cust.getPassword().equals(password)) {
-						return "/addmenu.html";
+						return "customer";
 					}
 				}
 		}else if(role.equalsIgnoreCase("Admin")) {
@@ -32,7 +34,7 @@ public class loginRepo {
 			List<Admin> adminList = query.getResultList();
 				for(Admin admin:adminList) {
 					if(admin.getUser_id().equalsIgnoreCase(userName) && admin.getPassword().equals(password)) {
-						return "adminpage";
+						return "admin";
 					}
 				}
 			}
