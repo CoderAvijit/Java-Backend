@@ -13,6 +13,7 @@ public class TruYumApplication{
 //	private AdminRepo repo;
 	public static void main(String[] args) {
 		SpringApplication.run(TruYumApplication.class, args);
+		System.out.println("Successfully Running the program...");
 	}
 
 	
