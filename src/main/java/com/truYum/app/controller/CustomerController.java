@@ -46,6 +46,7 @@ public class CustomerController{
 
 	@GetMapping("/viewcart")
 	public ResponseEntity<Object> ViewCart(@RequestParam String email) {
+		System.out.println("Inside viewcart");
 		return ResponseHandler.generateResponseList(repo.viewCart(email), HttpStatus.OK);
 	}
 	@GetMapping("/showitems")
